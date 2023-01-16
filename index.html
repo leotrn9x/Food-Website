@@ -9,15 +9,41 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
 </head>
 <body>
-    <script src="script.js"></script>
+    <!-- Navbar -->
+    <nav class="navbar target">
+        <a href="#" class="navbar-link">
+            <i class="fas fa-home"></i>
+            <span>Home</span>
+        </a>
+        <a href="#" class="navbar-link">
+            <i class="fas fa-utensils"></i>
+            <span>Meals</span>
+        </a>
+        <a href="#" class="navbar-link">
+            <i class="fas fa-hamburger"></i>
+            <span>Burger</span>
+        </a>
+        <a href="#" class="navbar-link">
+            <i class="fas fa-pizza-slice"></i>
+            <span>Pizza</span>
+        </a>
+        <a href="#" class="navbar-link">
+            <i class="fas fa-phone"></i>
+            <span>Contact</span>
+        </a>
+    </nav>
+    <div class="menu target"></div>
+    <!-- End of Navbar -->
+
     <div class="container">
+        <!-- Section 1 -->
        <section class="section-1">
         <h1 class="section-heading">
             Variety of Foods
         </h1>
         <!-- From Cdnjs -->
         <div class="section-1-icons">
-            <i class="fas fa-egg"></i>
+            <i class="fas fa-egg change"></i>
             <i class="fas fa-stroopwafel"></i>
             <i class="fas fa-cheese"></i>
             <i class="fas fa-hotdog"></i>
@@ -29,6 +55,104 @@
             <i class="fas fa-seedling"></i>
         </div>
        </section>
+       <!--End of Section 1 -->
+
+       <!-- Section 2 -->
+       <section class="section-2">
+        <h1 class="section-heading">Popular meal</h1>
+        <div class="card-container">
+            <div class="card">
+                <img src="https://thanhdatnasdaq.github.io/Website/Foods/Foods/Final%20Files/images/card-img-1.png" class="card-img">
+                <h3 class="card-name">Fish</h3>
+                <button class="card-btn">Order now</button>
+            </div>
+            <div class="card">
+                <img src="https://thanhdatnasdaq.github.io/Website/Foods/Foods/Final%20Files/images/card-img-2.png" class="card-img">
+                <h3 class="card-name">Cake</h3>
+                <button class="card-btn">Order now</button>
+            </div>
+            <div class="card">
+                <img src="https://thanhdatnasdaq.github.io/Website/Foods/Foods/Final%20Files/images/card-img-3.png" class="card-img">
+                <h3 class="card-name">Lobster</h3>
+                <button class="card-btn">Order now</button>
+            </div>
+        </div>
+       </section>
+       <!-- End of Section 2 -->
+
+       <!-- Section 3 -->
+       <section class="section-3">
+        <h1 class="section-heading">Gallery</h1>
+        <div class="gallery">
+            <a href="#" class="gallery-link" title="Order Now">
+                <img src="https://thanhdatnasdaq.github.io/Website/Foods/Foods/Final%20Files/images/gallery-img-1.jpg" class="food-img">
+                <h3 class="food-name">Pancakes</h3>
+                <p class="food-description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
+                        commodi possimus iure hic excepturi. Corporis!
+                </p>
+            </a> 
+            <a href="#" class="gallery-link" title="Order Now">
+                <img src="https://thanhdatnasdaq.github.io/Website/Foods/Foods/Final%20Files/images/gallery-img-2.jpg" class="food-img">
+                <h3 class="food-name">Cupcake</h3>
+                <p class="food-description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
+                        commodi possimus iure hic excepturi. Corporis!
+                </p>
+            </a> 
+            <a href="#" class="gallery-link" title="Order Now">
+                <img src="https://thanhdatnasdaq.github.io/Website/Foods/Foods/Final%20Files/images/gallery-img-3.jpg" class="food-img">
+                <h3 class="food-name">Hummus</h3>
+                <p class="food-description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
+                        commodi possimus iure hic excepturi. Corporis! 
+                </p>
+            </a> 
+            <a href="#" class="gallery-link" title="Order Now">
+                <img src="https://thanhdatnasdaq.github.io/Website/Foods/Foods/Final%20Files/images/gallery-img-4.jpg" class="food-img">
+                <h3 class="food-name">Hamburger</h3>
+                <p class="food-description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
+                        commodi possimus iure hic excepturi. Corporis! 
+                </p>
+            </a> 
+            <a href="#" class="gallery-link" title="Order Now">
+                <img src="https://thanhdatnasdaq.github.io/Website/Foods/Foods/Final%20Files/images/gallery-img-5.jpg" class="food-img">
+                <h3 class="food-name">Salmon</h3>
+                <p class="food-description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
+                        commodi possimus iure hic excepturi. Corporis! 
+                </p>
+            </a> 
+            <a href="#" class="gallery-link" title="Order Now">
+                <img src="https://thanhdatnasdaq.github.io/Website/Foods/Foods/Final%20Files/images/gallery-img-6.jpg" class="food-img">
+                <h3 class="food-name">Vetgetables</h3>
+                <p class="food-description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
+                        commodi possimus iure hic excepturi. Corporis!
+                </p>
+            </a> 
+        </div>
+       </section>
+       <!-- End of Section 3 -->
+
+       <!-- Section 4 -->
+       <div class="section-4">
+        <div class="section-4-text">
+            <h2 class="section-4-heading">Sign Me Up</h2>
+            <p class="section-4-paragraph">Be The first to know about new product</p>
+        </div>
+        <form class="signup-form">
+            <input type="email" class="signup-form-input" placeholder="Enter your email">
+            <button type="submit" class="signup-form-btn">
+                <i class="fas fa-arrow-right"></i>
+            </button>
+        </form>
+        <p class="copyright">CodeAndCreate &copy; All Right Reserved</p>
+       </div>
+       <!-- End of Section 4 -->
+
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
